@@ -1,6 +1,30 @@
 body{
     background-color: none;
     position: relative;
+    font-family: 'Oswald', sans-serif;
+}
+
+.content-wrap{
+    padding-bottom: 3rem;
+    text-transform: uppercase;
+}
+
+.content-wrap h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.content-wrap h2{
+    font-weight: 500;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
 }
 
 footer{
@@ -14,19 +38,7 @@ footer{
 footer a{
     padding-top: .5rem;
     display: block;
+    font-size: 18px;
+    font-weight: 300;
     text-decoration: none;
 }
-
-.content-wrap{
-    padding-bottom: 3rem;
-}
-
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    text-align: center;
-}
-

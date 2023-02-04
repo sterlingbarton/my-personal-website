@@ -1,5 +1,4 @@
 body{
-    background-color: none;
     position: relative;
     font-family: 'Oswald', sans-serif;
 }
@@ -15,7 +14,22 @@ body{
 }
 
 .content-wrap h2{
+    font-size: 2rem;
     font-weight: 500;
+}
+
+.content-wrap button{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-decoration: none;
+    border: none;
+    background-color: #FFF;
+    transition: all 0.3s ease-in-out;
+}
+
+.content-wrap button:hover{
+    transform: scale(1.1);
 }
 
 .container{
@@ -41,4 +55,8 @@ footer a{
     font-size: 18px;
     font-weight: 300;
     text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }

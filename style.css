@@ -7,47 +7,14 @@
 /* dots */
 /* https://images.unsplash.com/photo-1628432388803-2b4dfa2a0158?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80 */
 
+/* cloud */
+/* https://images.unsplash.com/photo-1618598289187-b16102c079f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80 */
+
 body{
-    /* background-image: url('https://images.unsplash.com/photo-1628432388803-2b4dfa2a0158?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+    /* background-image: url('https://images.unsplash.com/photo-1618598289187-b16102c079f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80');
     background-size: cover; */
     position: relative;
     font-family: 'Oswald', sans-serif;
-}
-
-.content-wrap{
-    padding-bottom: 3rem;
-    text-transform: uppercase;
-}
-
-.content-wrap h1{
-    font-size: 3rem;
-    font-weight: 700;
-    /* color: #FFF; */
-    -webkit-text-stroke: 1px black;
-}
-
-.content-wrap h2{
-    font-size: 2rem;
-    font-weight: 500;
-    /* color: #FFF; */
-    -webkit-text-stroke: 1px black;
-}
-
-.content-wrap button{
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 400;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: none;
-    /* color: #FFF; */
-    border: none;
-    background-color: transparent;
-    transition: all 0.3s ease-in-out;
-}
-
-.content-wrap button:hover{
-    transform: scale(1.1);
 }
 
 .container{
@@ -57,6 +24,67 @@ body{
     justify-content: center;
     min-height: 100vh;
     text-align: center;
+}
+
+.content-wrap{
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+    text-transform: uppercase;
+}
+
+.intro{
+    margin: 5rem auto;
+}
+
+.intro h1{
+    font-size: 4rem;
+    font-weight: 700;
+    -webkit-text-stroke: 1px black;
+}
+
+.intro h2{
+    font-size: 3rem;
+    font-weight: 500;
+    -webkit-text-stroke: 1px black;
+}
+
+.intro button{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: none;
+    border: none;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.intro button:hover{
+    transform: scale(1.1);
+}
+
+.skills {
+    margin: 5rem auto;
+}
+
+.skills h3{
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.icons i{
+    margin: 3rem;
+}
+
+.contact {
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+
+.contact h3{
+    font-size: 2.5rem;
+    font-weight: 200;
 }
 
 footer{
@@ -73,7 +101,7 @@ footer a{
     font-size: 20px;
     font-weight: 300;
     text-decoration: none;
-    /* color: #FFF; */
+    color: #000;
 }
 
 footer a:hover{

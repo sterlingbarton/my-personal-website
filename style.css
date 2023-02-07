@@ -1,4 +1,15 @@
+/* circle */
+/* https://images.unsplash.com/photo-1614540458481-965fdbab9814?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80 */
+
+/* galaxy */
+/* https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80 */
+
+/* dots */
+/* https://images.unsplash.com/photo-1628432388803-2b4dfa2a0158?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80 */
+
 body{
+    /* background-image: url('https://images.unsplash.com/photo-1628432388803-2b4dfa2a0158?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+    background-size: cover; */
     position: relative;
     font-family: 'Oswald', sans-serif;
 }
@@ -11,20 +22,27 @@ body{
 .content-wrap h1{
     font-size: 3rem;
     font-weight: 700;
+    /* color: #FFF; */
+    -webkit-text-stroke: 1px black;
 }
 
 .content-wrap h2{
     font-size: 2rem;
     font-weight: 500;
+    /* color: #FFF; */
+    -webkit-text-stroke: 1px black;
 }
 
 .content-wrap button{
     font-family: 'Oswald', sans-serif;
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 400;
     text-decoration: none;
+    text-transform: uppercase;
+    padding: none;
+    /* color: #FFF; */
     border: none;
-    background-color: #FFF;
+    background-color: transparent;
     transition: all 0.3s ease-in-out;
 }
 
@@ -52,9 +70,10 @@ footer{
 footer a{
     padding-top: .5rem;
     display: block;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     text-decoration: none;
+    /* color: #FFF; */
 }
 
 footer a:hover{

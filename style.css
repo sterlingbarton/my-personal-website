@@ -55,12 +55,13 @@ body{
     font-weight: 300;
     text-decoration: none;
     text-transform: uppercase;
+    color: #FFF;
     margin-top: 1rem;
     padding: 12px 45px;
-    border: 1px solid #FFF;
+    border: 1px solid #E1633E;
     border-radius: 100px;
-    background-color: #D5D0D4;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: #E1633E;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease-in-out;
 }
 
@@ -75,7 +76,7 @@ body{
 }
 
 .skills {
-    margin: 10rem auto;
+    margin: 8rem auto;
     height: 100vh;
 }
 
@@ -89,7 +90,7 @@ body{
 }
 
 .contact {
-    margin-top: 12rem;
+    margin-top: 14rem;
     margin-bottom: 0;
 }
 

@@ -85,8 +85,15 @@ body{
     font-weight: 300;
 }
 
+.icons{
+    display: flex;
+    justify-content: center;
+    
+}
+
 .icons i{
     margin: 3rem;
+    margin-bottom: 0;
 }
 
 .contact {

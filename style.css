@@ -49,7 +49,7 @@ body{
     margin: 1rem auto;
 }
 
-.intro button{
+.intro .btn{
     font-family: 'Oswald', sans-serif;
     font-size: 1.5rem;
     font-weight: 300;
@@ -65,7 +65,7 @@ body{
     transition: all 0.3s ease-in-out;
 }
 
-.intro button:hover{
+.intro .btn:hover{
     transform: scale(1.1);
 }
 
@@ -73,6 +73,11 @@ body{
     display: flex;
     flex: 1;
     flex-direction: column;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
 }
 
 .skills {
@@ -88,7 +93,6 @@ body{
 .icons{
     display: flex;
     justify-content: center;
-    
 }
 
 .icons i{
@@ -126,3 +130,37 @@ footer a{
 footer a:hover{
     text-decoration: underline;
 }
+
+.floating-container {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+    margin: 35px 25px;
+  }
+  
+  .floating-container .floating-button {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background: #E1633E;
+    bottom: 0;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+    line-height: 65px;
+    text-align: center;
+    font-size: 23px;
+    z-index: 100;
+    box-shadow: 0 10px 25px -5px rgba(44, 179, 240, 0.6);
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .floating-button {
+    display: none;
+  }

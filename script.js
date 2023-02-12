@@ -1,16 +1,19 @@
 
 const contactBtn = document.querySelector('.btn');
-const floatingBtn = document.querySelector('.floating-button');
+const contactBtnText = document.querySelector('.text')
+const contactContainer = document.querySelector('.contact-container');
+const icon = document.querySelector('.fa-envelope');
 
-$(window).scroll(function()
-{
-    console.log($(window).scrollTop())
+$(window).scroll(function(){
     if($(window).scrollTop() >= 300){
-        contactBtn.style.display = 'none';
-        floatingBtn.style.display = 'block';
+        contactContainer.classList.add('floating-container');
+        contactBtn.className = 'floating-button';
+        icon.style.display = 'block';
+        contactBtnText.style.display = 'none';
     } else{
-        contactBtn.style.display = 'block';
-        floatingBtn.style.display = 'none';
+        contactContainer.className = 'contact-container';
+        contactBtn.className = 'btn';
+        icon.style.display = 'none';
+        contactBtnText.style.display = 'block';
     }
-    document.getElementById("fixed_box").innerHTML = "You have Scrolled to " + $(window).scrollTop() + "px";
 });

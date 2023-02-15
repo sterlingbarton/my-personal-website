@@ -1,6 +1,7 @@
 body{
     background-image: url('https://images.unsplash.com/photo-1618598289187-b16102c079f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80');
-    background-size: cover;
+    background-size: 100% 258%;
+    background-repeat: no-repeat;
     position: relative;
     font-family: 'Oswald', sans-serif;
 }
@@ -18,7 +19,6 @@ body{
 }
 
 .content-wrap{
-    padding-bottom: 3rem;
     text-transform: uppercase;
 }
 
@@ -104,10 +104,11 @@ body{
 }
 
 footer{
-    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     text-align: center;
     height: 3rem;
-    bottom: 0;
     width: 100%;
 }
 
